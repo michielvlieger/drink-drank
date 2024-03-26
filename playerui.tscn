@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://cx3f7e13s4ljw"]
+
+[ext_resource type="Script" path="res://playerui.gd" id="1_7gaen"]
+[ext_resource type="Texture2D" uid="uid://churs48hnppf8" path="res://player.png" id="1_isqbp"]
+
+[node name="Playerui" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 33.0
+offset_bottom = 33.0
+script = ExtResource("1_7gaen")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_isqbp")
